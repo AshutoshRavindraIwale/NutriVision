@@ -10,13 +10,13 @@ class NutritionalEvaluator:
         # Coefficients for different nutritional factors
         self.P_factor = 2  # Protein
         self.F_factor = 4  # Dietary Fiber
-        self.S_factor = -0.5  # Sugars
-        self.AS_factor = -0.5  # Added Sugars
-        self.C_factor = -0.01  # Cholesterol
-        self.Na_factor = -0.05  # Sodium
-        self.TF_factor = -2  # Total Fat
-        self.SF_factor = -1  # Saturated Fat
-        self.TRF_factor = -2  # Trans Fat
+        self.S_factor = -4  # Sugars
+        self.AS_factor = -4  # Added Sugars
+        self.C_factor = -4  # Cholesterol
+        self.Na_factor = -2  # Sodium
+        self.TF_factor = -5  # Total Fat
+        self.SF_factor = -5  # Saturated Fat
+        self.TRF_factor = -5  # Trans Fat
 
     def load_dataset(self):
         # Load the dataset from the provided CSV file
@@ -24,9 +24,9 @@ class NutritionalEvaluator:
 
     def calculate_score(self, protein, fiber, sugars, added_sugars, cholesterol, sodium, total_fat, saturated_fat, trans_fat):
         # Calculates the nutritional score of a product
-        score = (self.P_factor * protein) + (self.F_factor * fiber) - (self.S_factor * sugars) - \
-                (self.AS_factor * added_sugars) - (self.C_factor * cholesterol) - (self.Na_factor * sodium) - \
-                (self.TF_factor * total_fat) - (self.SF_factor * saturated_fat) - (self.TRF_factor * trans_fat)
+        score = (self.P_factor * protein) + (self.F_factor * fiber) + (self.S_factor * sugars) + \
+                (self.AS_factor * added_sugars) + (self.C_factor * cholesterol) + (self.Na_factor * sodium) + \
+                (self.TF_factor * total_fat) + (self.SF_factor * saturated_fat) + (self.TRF_factor * trans_fat)
         return score
 
     def evaluate_product(self, score):

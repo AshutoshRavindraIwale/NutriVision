@@ -1,0 +1,42 @@
+Catergory,Name of the Product,Quantity(g),Protein(g),Dietary Fiber(g),Sugars(g),Added Sugars(g),Cholesterol(g),Sodium(g),Total Fat(g),Saturated Fat(g),Trans Fat(g)
+Dairy,"0% Greek Yogurt, Nonfat, Plain",170,17,0,5,0,0.01,0.075,0,0,0
+Dairy,"Goat Milk Yogurt, Plain",226.7,8,0,6.7,0,0.0267,0.0867,6,4,0
+Dairy,Bananas & Cream Yogurt Cup,113,4,0,16,12,0.015,0.055,6,3.5,0
+Dairy,"French Village Nonfat Yogurt, Apricot & Mango",170,6,0,23,0,0,0.095,0,0,0
+Dairy,"1,000 Day Gouda Cheese",28,8,0,0,0,0.03,0.27,10,7,0
+Dairy,"3 Cheese Blend, Shredded",112,28,0,0,0,0.1,0.68,32,20,0
+Dairy,"Coconut Milk, Organic",240,4,0,4,0,0,0.04,44,44,0
+Dairy,1% Low Fat Milk,240,11,0,15,0,0.015,0.16,2.5,1.5,0
+Dairy,Chocolate Whole Milk,240,8,0.5,30,19,0.02,0.17,8,4.5,0
+Dairy,Homogenized Vitamin D Milk,240,8,0,12,0,0.035,0.125,9,5,0
+Snacks,"Crisp Crunchy Crisps, Pea and Chickpeas",28,4,3,0,0,0,0.25,2.5,0,0
+Snacks,"Crispy Potato Snacks, Ghosts & Bats",28,0.5,0.5,0.5,0,0,0.24,6,0.5,0
+Snacks,Veggie Chips Potato Snacks,28,0.5,2,0,0,0,0.24,9,0.5,0
+Snacks,Oreo,29,0.8,0.8,12,13,0,0.085,7,2,0
+Snacks,Wasabi Roasted Seaweed Snacks,30,6,6,0,0,0,0.24,15,0,0
+Snacks,Churro Bites,30,0.5,1,11,0,0.005,0.08,1.5,0.5,0
+Snacks,12 Grain Mini Snack Crackers,30,2,3,2,0,0,0.18,6,0.5,0
+Snacks,3 Seed Beet Crackers,30,2,0,0.5,0,0,0.05,8,1,0
+Snacks,Almond Butter Granola,97,10.4,7.5,17.9,16.4,0,0.201,17.9,3,0
+Snacks,Almond Butter Puffs Cereal,40,6,2,6,5,0,0.08,10,1,0
+Snacks,Almond Windmill Cookies,28,2,0.5,7,7,0.01,0.09,6,2.5,0
+Meat,Chicken Meatballs,85,16,0,0,0,0.08,0.3,9,2,0
+Meat,Lean Beef Stew Meat,113,23,0,0,0,0.07,0.075,4,2,0
+Meat,Organic Boneless & Skinless Chicken Breasts,112,24,0,0,0,0.07,0.13,3,0.5,0
+Meat,Turkey Meatballs,71,12,2,1,0,0.03,0.4,5,2,0
+Meat,90% Lean 10% Fat Heirloom Ground Chicken,112,21,0,0,0,0.115,0.09,11,3,0
+Meat,Albacore Tuna,113,29,0,0,0,0.04,0.36,1,0,0
+Meat,Asian Style Chicken Sausage,90,15,0,10,10,0.065,0.86,3,0.5,0
+Meat,Hot Italian Sausage,90,15,0,1,1,0.055,0.45,13,4.5,0
+Meat,Boneless Pork Tenderloin,100,21,0,0,0,0.065,0.05,5,2,0
+Meat,Pork Belly,85,13,0,0,0,0.045,0.35,21,7,0
+Drinks,100% Cranberry Juice,267,0.5,0,17,0,0,0,0,0,0
+Drinks,100% Orange Juice with Extra Pulp,267,2,0,23,0,0,0,0,0,0
+Drinks,"Apple Juice, Fresh pressed",267,0,0,28,0,0,0.005,0,0,0
+Drinks,Beets Juice with Lemon,267,2,1,17,0,0,0.105,0,0,0
+Drinks,"Cold Pressed Juice, Pomegranate",267,1,0.5,50,0,0,0.005,0,0,0
+Drinks,Lemon & Ginger Juice Seltzer Water,267,0,0,0,0,0,0,0,0,0
+Drinks,Seltzer Water Flavored with Blood Orange and Orange Juice,267,0,0,2,0,0,0,0,0,0
+Drinks,"Sparkling Juice Beverage, Strawberry",267,0,0,15,0,0,0,0,0,0
+Drinks,100% Pure Coconut Water,267,0,0,18,0,0,0.045,0,0,0
+Drinks,"100% Pink Lady Apple Cider, Unfiltered",267,0,0.5,24,0,0,0.01,0,0,0
