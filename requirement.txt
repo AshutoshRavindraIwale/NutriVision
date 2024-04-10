@@ -2,4 +2,4 @@ streamlit
 openai==0.28
 pandas
 python-dotenv>=0.19.0
-matplotlib
+matplotlib.pyplot
