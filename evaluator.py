@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.express as px
 
 class NutritionalEvaluator:
     def __init__(self, file_path):
@@ -8,15 +9,15 @@ class NutritionalEvaluator:
         self.file_path = file_path
         self.data = self.load_dataset()
         # Coefficients for different nutritional factors
-        self.P_factor = 2  # Protein
-        self.F_factor = 4  # Dietary Fiber
-        self.S_factor = -4  # Sugars
-        self.AS_factor = -4  # Added Sugars
-        self.C_factor = -4  # Cholesterol
-        self.Na_factor = -2  # Sodium
-        self.TF_factor = -5  # Total Fat
-        self.SF_factor = -5  # Saturated Fat
-        self.TRF_factor = -5  # Trans Fat
+        self.P_factor = 1  # Protein
+        self.F_factor = 1  # Dietary Fiber
+        self.S_factor = -1  # Sugars
+        self.AS_factor = -1  # Added Sugars
+        self.C_factor = -1  # Cholesterol
+        self.Na_factor = -1  # Sodium
+        self.TF_factor = -1  # Total Fat
+        self.SF_factor = -1  # Saturated Fat
+        self.TRF_factor = -1  # Trans Fat
 
     def load_dataset(self):
         # Load the dataset from the provided CSV file
@@ -31,16 +32,24 @@ class NutritionalEvaluator:
 
     def evaluate_product(self, score):
         # Evaluates the product based on its nutritional score
-        if score > 50:
+        if score > 75:
+            return 'Excellent Choice'
+        elif score > 25:
             return 'Good Choice'
         elif score > 0:
             return 'Moderate Choice'
+        elif score < 0 and score > -25:
+            return 'Poor Choice'
+        elif score < -25 and score > -75:
+            return 'Unhealthy Choice'
+        elif score < -75:
+            return 'Worst Choice'
         else:
             return 'Bad Choice'
 
     def display_score_bar(self, score):
         # Displays the nutritional score on a bar chart
-        fig, ax = plt.subplots(figsize=(10, 2))
+        fig, ax = plt.subplots(figsize=(5, 2))
         cmap = plt.get_cmap('RdYlGn')
         norm = plt.Normalize(-100, 100)
         plt.barh([0], score, color=cmap(norm(score)), edgecolor='black')
@@ -63,3 +72,7 @@ class NutritionalEvaluator:
             print(f"Product: {row['Name of the Product']}, Score: {score}, Evaluation: {self.evaluate_product(score)}")
             fig = self.display_score_bar(score)
             plt.show(fig)
+            
+    
+    
+

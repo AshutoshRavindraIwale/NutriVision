@@ -1,4 +1,4 @@
-Catergory,Name of the Product,Quantity(g),Protein(g),Dietary Fiber(g),Sugars(g),Added Sugars(g),Cholesterol(g),Sodium(g),Total Fat(g),Saturated Fat(g),Trans Fat(g)
+Category,Name of the Product,Quantity(g),Protein(g),Dietary Fiber(g),Sugars(g),Added Sugars(g),Cholesterol(g),Sodium(g),Total Fat(g),Saturated Fat(g),Trans Fat(g)
 Dairy,"0% Greek Yogurt, Nonfat, Plain",170,17,0,5,0,0.01,0.075,0,0,0
 Dairy,"Goat Milk Yogurt, Plain",226.7,8,0,6.7,0,0.0267,0.0867,6,4,0
 Dairy,Bananas & Cream Yogurt Cup,113,4,0,16,12,0.015,0.055,6,3.5,0
