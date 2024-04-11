@@ -1,5 +1,0 @@
-streamlit
-pandas
-pip install matplotlib
-numpy
-plotly
