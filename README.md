@@ -52,16 +52,16 @@ NutriVision is a user-friendly tool designed to simplify nutritional assessment 
 
 ## Screenshots  
 <!-- Add images below with proper Markdown syntax -->  
-![Dashboard](![alt text](image.png))  
-*Dashboard: Overview of product scores and visualizations.*  
+![alt text](image.png)
+ 
 
-![Health Bar](![alt text](image-1.png))  
-*Health Bar: Example of a product’s color-coded rating.*  
+![alt text](image-1.png)
+ 
 
-![Pie Chart](![alt text](image-2.png))  
-*Pie Chart: Nutrient breakdown for a selected item.*  
-![Scatter plot](![alt text](image-3.png)) 
-*Scatter Plot: Compare products in a category.*
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
 
 ---
 
